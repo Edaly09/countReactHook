@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 const App = () =>{
-const [conteur, setconteur] = useState(1)
+const [conteur, setconteur] = useState(0)
 
 const  handleCountChange1 = ()=>{
   setconteur(conteur + 1)
